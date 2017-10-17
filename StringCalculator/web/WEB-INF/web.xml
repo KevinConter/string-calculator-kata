@@ -16,6 +16,10 @@
         <servlet-name>ServletStep4</servlet-name>
         <servlet-class>servlets.ServletStep4</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletStep5</servlet-name>
+        <servlet-class>servlets.ServletStep5</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletStep1</servlet-name>
         <url-pattern>/ServletStep1</url-pattern>
@@ -31,6 +35,10 @@
     <servlet-mapping>
         <servlet-name>ServletStep4</servlet-name>
         <url-pattern>/ServletStep4</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletStep5</servlet-name>
+        <url-pattern>/ServletStep5</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
