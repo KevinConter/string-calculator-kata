@@ -50,7 +50,7 @@ public class ServletStep2 extends HttpServlet {
             
             Integer res = 0;
             for(int i=0;i<nums.length;i++){
-                res += Integer.valueOf(nums[i]);
+                res += nums[i].equals("") ? 0 : Integer.valueOf(nums[i]);
             }
             return res;
         }
