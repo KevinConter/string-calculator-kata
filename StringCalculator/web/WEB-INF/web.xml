@@ -4,9 +4,17 @@
         <servlet-name>ServletStep1</servlet-name>
         <servlet-class>servlets.ServletStep1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletStep2</servlet-name>
+        <servlet-class>servlets.ServletStep2</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletStep1</servlet-name>
         <url-pattern>/ServletStep1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletStep2</servlet-name>
+        <url-pattern>/ServletStep2</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
